@@ -78,7 +78,7 @@
         <input type="tel" id="mobile" placeholder="Enter Mobile Number" maxlength="10">
         <button class="login-btn" onclick="login()">Login</button>
         <div class="alert" id="alertBox"></div>
-Wait for some seconds after clicking on login button
+<br>Login portal for SBI Clerk CBT-1 Mock Paper
 </div>    
 
 <script>
@@ -98,7 +98,7 @@ Wait for some seconds after clicking on login button
                 .then(data => {
                     if (data.exists) {
                         // Redirect to another page on successful login
-                        window.location.href = "https://forms.gle/oJQwD2FmWGMDAN81A"; // Change this to your actual next page
+                        window.location.href = "https://forms.gle/oJQwD2FmWGMDAN81A";
                     } else {
                         showAlert("User not registered.");
                     }
